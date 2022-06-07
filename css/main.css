@@ -175,6 +175,10 @@ button {
   justify-content: space-between;
 }
 
+.welcome {
+  margin-top: 20px;
+}
+
 .welcome__wrapper {
   display: flex;
   justify-content: space-around;
