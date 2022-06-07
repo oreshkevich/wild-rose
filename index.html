@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Wild Rose</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <button class="button">
+          <img class="button-icon" src="./assets/svg/search.svg" alt="icon: search ">
+        </button>
+        <a href="#" class="logo">
+          <div class="mask">
+          </div>
+        </a>
+        <div class="header__logo-button">
+          <button class="button">
+            <img class="button-icon" src="./assets/svg/auth.svg" alt="icon: auth ">
+          </button>
+          <div class="basis__like">
+            <span class="basic-count">12</span>
+            <button class="button button-img">
+              <img class="button-icon" src="./assets/svg/wishlistActive.svg" alt="icon: wishlist">
+            </button>
+          </div>
+          <div class="basis__like">
+            <span class="basic-count">4</span>
+            <button class="button button-img">
+              <img class="button-icon" src="./assets/svg/basketFill.svg" alt="icon: basket">
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="header__nav">
+        <nav class="nav">
+          <div class="nav-active vigorous">
+            <ul class="nav__icons">
+              <li>
+                <a href="#" class="nav__icons-list active">новинки</a>
+              </li>
+              <li>
+                <a href="#" class="nav__icons-list active-hover ">каталог</a>
+              </li>
+              <li>
+                <a href="#" class="nav__icons-list active-hover ">покупателям</a>
+              </li>
+              <li>
+                <a href="#" class="nav__icons-list active-hover ">партнерам</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="welcome">
+      <div class="container">
+        <div class="welcome__wrapper">
+          <div class="visiting__wrapper">
+
+            <div class="slider-item">
+              <div id="slider" class="page">
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <img src="./assets/img/image-1.jpg" class="slide-image" alt="image-1">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./assets/img/image-2.jpg" class="slide-image" alt="image-1">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./assets/img/image-6.jpg" class="slide-image" alt="image-1">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="./assets/img/image-7.jpg" class="slide-image" alt="image-1">
+                    </div>
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="picture__slider">
+              <div class="picture__slider-counter">
+                <button class="picture__slider-next">
+                  <img class="picture__slider-next-img icons-active active-transition" src="./assets/svg/left.svg"
+                    alt="next">
+                </button>
+                <div class="picture-slider-dots">
+                  <div class="picture-dot picture-dot-active"></div>
+                  <div class="picture-dot"></div>
+                  <div class="picture-dot"></div>
+                  <div class="picture-dot"></div>
+                  <div class="picture-dot"></div>
+                </div>
+                <button class="picture__slider-prev">
+                  <img class="picture__slider-prev-img icons-active active-transition" src="./assets/svg/right.svg"
+                    alt="prev">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="visiting__wrapper">
+            <nav class="visiting__wrapper-nav">
+              <div class="nav__main-active vigorous">
+                <ul class="nav__main">
+                  <li class="nav__li">
+                    <a href="#" class="nav__main-list active-main">Главная </a>
+                    <span class="nav__span">/</span>
+                  </li>
+                  <li class="nav__li">
+                    <a href="#" class="nav__main-list active-main ">Новинки </a>
+                    <span class="nav__span">/</span>
+                  </li>
+                  <li>
+                    <a href="#" class="nav__main-list active-main ">Спортивные костюмы</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <h2 class="visiting-title">Теплый зимний костюм</h2>
+            <span class="visiting-span">Цвет</span>
+            <p class="visiting-text">Перламутровый</p>
+            <div class="img__wrapper">
+              <img src="./assets/img/image-3.jpg" alt="image-1">
+              <img src="./assets/img/image-4.jpg" alt="image-1">
+              <img src="./assets/img/image-5.jpg" alt="image-1">
+            </div>
+            <h4 class="visiting-span size ">Выберите размер</h4>
+            <table>
+              <tr>
+                <td>38</td>
+                <td>40</td>
+                <td>42</td>
+                <td>44</td>
+                <td>46</td>
+                <td>48</td>
+                <td>50</td>
+                <td>52</td>
+              </tr>
+            </table>
+            <div class="size-chart ">Таблица размеров</div>
+            <div class="button-wrapper">
+              <button class="button-basket">
+                Добавить в корзину
+              </button>
+              <button class="button-like">
+                <img class="button-icon" src="./assets/svg/basket-like.svg" alt="icon: wishlist">
+              </button>
+            </div>
+            <div class="description">Описание</div>
+            <div class="description-text ">Комфортный костюм на каждый день</div>
+            <div class="description composition">Состав</div>
+            <div class="description-text">82% хлопок, 18% спандекс</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
