@@ -269,7 +269,6 @@ td {
 
 .button-like {
   padding: 15px 15px;
-  border: revert;
   border: 1px solid #000000;
   border-radius: 4px;
 }
@@ -360,4 +359,8 @@ img.picture__slider-prev-img {
 
 .picture-dot-active:hover {
   background: #710707;
+}
+
+.img__button-active {
+  border: 1px solid #C15FAC;
 }
