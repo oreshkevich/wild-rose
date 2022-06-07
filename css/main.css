@@ -273,6 +273,10 @@ td {
   border-radius: 4px;
 }
 
+.button-like:hover {
+  background: #e2e7ec;
+}
+
 .button-wrapper {
   margin-right: 42px;
   display: flex;
