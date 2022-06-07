@@ -173,7 +173,8 @@ button {
 
 .welcome__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .nav__main {
@@ -300,7 +301,7 @@ td {
 }
 
 .swiper {
-  width: 972px;
+  width: 869px;
   height: 565px;
 }
 
