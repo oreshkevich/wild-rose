@@ -114,6 +114,10 @@ button {
   color: #000000;
 }
 
+.nav__main-list {
+  color: #C15FAC;
+}
+
 .nav-active {
   display: flex;
   margin-right: 123px;
@@ -179,7 +183,6 @@ button {
 
 .nav__main {
   display: flex;
-  justify-content: space-between;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
